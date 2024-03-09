@@ -1,9 +1,10 @@
+#importing required libraries
 from random import randint
 
-#creating a list for player
+#creating a list for computer
 t=["Rock","Paper","Scissors"]
 
-#creating a list for computer
+#make computer to choose random one from t
 computer=t[randint(0,2)]
 
 #setting player to false
